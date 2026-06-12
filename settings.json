@@ -1,14 +1,14 @@
 {
-  "name": "AFK Bot",
+  "name": "SERVER",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "SERVER",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "thesmartones.aternos.me",
+    "port": 58805,
+    "version": "26.1.2",
     "try-creative": false
   },
   "position": {
@@ -54,7 +54,7 @@
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 10
     }
   },
   "modules": {
@@ -73,12 +73,12 @@
     "place-night": false
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1514847116487561327/KLQbeSZFQ4MzINv-54iic1rzpMcz5fkAha4rbZCPcwh-_Y2FQ8fSPzuZ3yPUJe9UcVmO",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
